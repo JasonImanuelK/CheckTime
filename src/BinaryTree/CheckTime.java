@@ -77,6 +77,7 @@ class BinaryTree {
                 
 		Node root = null;
 		root = tree.insert(root, 4);
+                System.out.println("Try.");
                 tree.insert(root, 12);
 		tree.insert(root, 11);
 		tree.insert(root, 7);
